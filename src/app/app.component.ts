@@ -19,4 +19,26 @@ export class AppComponent {
   doOtherStuff() {
     alert('I did other stuff');
   }
+
+  // Example issue: High cyclomatic complexity
+  complexFunction(value: number) {
+    if (value > 0) {
+      if (value > 10) {
+        console.log('Value is greater than 10');
+      } else {
+        console.log('Value is between 1 and 10');
+      }
+    } else {
+      if (value < -10) {
+        console.log('Value is less than -10');
+      } else {
+        console.log('Value is between 0 and -10');
+      }
+    }
+  }
+
+  // Example issue: Use of eval
+  executeCode(code: string) {
+    eval(code); // This should trigger a SonarQube warning
+  }
 }
