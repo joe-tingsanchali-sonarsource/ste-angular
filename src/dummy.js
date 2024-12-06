@@ -14,3 +14,9 @@ function executeUserInput(userInput) {
 // Example usage
 const userInput = "alert('This is a test');";
 executeUserInput(userInput);
+
+const arr = [4, 3, 2, 1];
+
+for (let value in arr) {  // Noncompliant
+  console.log(value);  // logs 0, 1, 2, 3
+}
