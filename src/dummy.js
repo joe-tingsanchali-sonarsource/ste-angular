@@ -1,6 +1,10 @@
 i=1;
 j=2323;
 k=0230202;
+
+aouwoaioa=09239823892;
+aoweoawe=2222222;
+
 l=0;
 oiawef=92983;
 oiaeoiajoief=2398;
