@@ -5,6 +5,7 @@ l=0;
 oiawef=92983;
 oiaeoiajoief=2398;
 const aofeoia="aweofia";
+let aoewfia2="ag4a";
 
 // Example of insecure code using eval()
 function executeUserInput(userInput) {
